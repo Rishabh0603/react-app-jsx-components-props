@@ -37,4 +37,45 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  padding-left:1rem;
+  padding-right:1rem;
+ }
+ .navigation{
+   background-color:#a855f7;
+   color:white;
+   padding:1rem;
+ }
+ .header{
+  font-size:xx-large;
+  font-weight: 700;
+  font-family: cursive;
+ }
+ .list-non-bullet{
+   list-style: none;
+ }
+ .navigation .nav-pills{
+   text-align:right;
+ }
+ .list-item-inline{
+   display:inline;
+ }
+ .link{
+   text-decoration:none;
+   padding:0.5rem 1rem;
+ }
+ body{
+  background-color:lavender
+ }
+ /*textarea.js*/
+ button{
+  border-color:blue;
+  border-radius:10px;
+ }
+ textarea{
+  border-radius:10px;
+  border-color:blue;
+  background-color: lavender;
+ }
+ 
 

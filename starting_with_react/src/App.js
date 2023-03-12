@@ -1,15 +1,15 @@
 
 import './App.css';
- import Profile from './component/Function.js';
-     
-     
+
+import Navbar from './component/Navbar';
+import TextArea from './component/TextArea';
 function App() {
   
   return (
     <div className="App">
-       <Profile Name="Rishabh" age={22} hometown="Lucknow" />
-       <Profile Name="Ananya" age={23} hometown="Lucknow" />
-        <Profile Name="Harsh" age={23} hometown="Lucknow" />
+       <Navbar title="IamDeveloper"/>
+         <TextArea heading="Enter the text to convert it to UpperCase" text="Enter text"/>
+      
        
      </div>
   );
