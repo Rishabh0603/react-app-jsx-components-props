@@ -42,7 +42,7 @@
   padding-right:1rem;
  }
  .navigation{
-   background-color:#a855f7;
+    background-color:#a855f7; 
    color:white;
    padding:1rem;
  }
@@ -64,9 +64,9 @@
    text-decoration:none;
    padding:0.5rem 1rem;
  }
- body{
+  body{
   background-color:lavender
- }
+ } 
  /*textarea.js*/
  button{
   border-color:blue;

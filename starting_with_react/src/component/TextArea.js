@@ -33,7 +33,7 @@ export default function TextArea(props){
       <textarea placeholder="enter text here" type="text" id="text1" rows="10" onChange={setOnChange} value={text} /><br/>
       <button onClick={SettoUppercase} >Convert to UpperCase</button>
       <button onClick={SettoLowerCase}>Convert to LowerCase</button>
-      <h3>Count Words and Characters</h3>
+      <h3>Total Words and Characters</h3>
       <p>{text.split(" ").length} words and {text.length} characters</p>
       </div>
     )
